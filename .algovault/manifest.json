@@ -1,6 +1,6 @@
 {
   "version": "3.0.0",
-  "lastUpdated": "2026-08-31T16:23:45.350Z",
+  "lastUpdated": "2026-08-31T16:24:13.305Z",
   "platforms": {
     "leetcode": {
       "submissions": {
@@ -10,7 +10,8 @@
           "titleSlug": "two-sum",
           "difficulty": "Medium",
           "tags": [
-            "General"
+            "Array",
+            "Hash Table"
           ],
           "solutions": {
             "123456789101112class solution {    public int[] twosum(int[] nums, int target) {        for(int i=0;i<nums.length-1;i++){            for(int j =i+1;j<nums.length;j++){                if(nums[i]+nums[j]==target){                  return new int[]{i,j};                }            }        }        return new int[]{};    }}": {
@@ -18,6 +19,12 @@
               "runtime": "N/A",
               "memory": "N/A",
               "githubPath": "LeetCode/General/Two Sum/"
+            },
+            "java": {
+              "syncedAt": 1788193453305,
+              "runtime": "2 ms",
+              "memory": "45.3 MB",
+              "githubPath": "LeetCode/Array/Two Sum/"
             }
           }
         }
